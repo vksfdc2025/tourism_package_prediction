@@ -1,15 +1,3 @@
-======================================================================
-📋 GITHUB ACTIONS WORKFLOW YAML
-======================================================================
-
-Copy the content below and save it as:
-.github/workflows/pipeline.yml
-======================================================================
-
-# =============================================================================
-# GITHUB ACTIONS WORKFLOW FOR TOURISM PACKAGE PREDICTION MLOPS PIPELINE
-# =============================================================================
-
 name: Tourism Package Prediction MLOps Pipeline
 
 on:
@@ -70,5 +58,3 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: python tourism_project/hosting/hosting.py
-
-======================================================================
