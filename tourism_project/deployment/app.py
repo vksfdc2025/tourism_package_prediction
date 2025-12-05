@@ -145,7 +145,7 @@ with st.form("prediction_form"): # Create a form for user inputs
             else:
                 st.info(f"The customer is not likely to purchase the package. (Probability: {prediction_proba:.2f})")
 
-            st.write("--- Jarrod D. W. --- ✈️")
+            st.write("--- VAMSEE KRISHNA K ---")
 
         except Exception as e:
             st.error(f"An error occurred during prediction: {e}")
